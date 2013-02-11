@@ -46,16 +46,16 @@ Style.prototype.color = function (opts) {
   return this;
 };
 
-Style.prototype.add = function (class) {
+Style.prototype.add = function (className) {
   this.nodes.forEach(function (node) {
-    node.className += ' ' + class;
+    node.className += ' ' + className;
   });
   return this;
 };
 
-Stype.prototype.del = function (class) {
+Stype.prototype.del = function (className) {
   this.nodes.forEach(function (node) {
     node.className = node.className.
-      replace(new RegExp('\\b' + class + '\\b'));
+      replace(new RegExp('\\b' + className + '\\b'));
   });
 };
