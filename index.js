@@ -60,3 +60,7 @@ Stype.prototype.del = function (className) {
   });
   return this;
 };
+
+var toArray = function (obj) {
+  return obj.length ? Array.prototype.slice.call(obj) : [].concat(obj);
+};
