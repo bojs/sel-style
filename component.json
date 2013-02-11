@@ -2,7 +2,7 @@
   "name": "style",
   "repo": "bojs/style",
   "description": "dynamic style for dom nodes",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {
     "bojs/sel": "*"
   },

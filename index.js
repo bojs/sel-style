@@ -58,4 +58,5 @@ Stype.prototype.del = function (className) {
     node.className = node.className.
       replace(new RegExp('\\b' + className + '\\b'));
   });
+  return this;
 };
