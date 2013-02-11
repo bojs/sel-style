@@ -1,0 +1,12 @@
+{
+  "name": "style",
+  "repo": "bojs/style",
+  "description": "dynamic style for dom nodes",
+  "version": "0.1.0",
+  "dependencies": {
+    "bojs/sel": "*"
+  },
+  "scripts": ["index.js"],
+  "keywords": ["style", "css"],
+  "license": "MIT"
+}
