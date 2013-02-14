@@ -1,6 +1,4 @@
-module.exports = style;
-
-var style = {
+var style = module.exports = {
   pos: function (args) {
     var node = args.node;
     node.style.position = 'absolute';
